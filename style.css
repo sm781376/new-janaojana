@@ -1,0 +1,89 @@
+
+		#body{
+		margin:auto;
+		width:1000px;
+		min-height:700px;
+		background:#999999;
+		}
+		#topbanner{width:1000px;height:70px;}
+		
+#animation_image{
+	height:300px;
+	margin-top:40px;
+	animation-name:image;
+	animation-duration:20s;
+	animation-iteration-count:infinite;
+	
+	
+}				
+	@keyframes image{
+				0%{
+					background:url("Image/janbo.jpg") no-repeat center center/cover;
+				}
+				
+				25%{
+					background:url("Image/janbo.jpg") no-repeat center center/cover;
+				}
+				30%{
+					background:url("Image/chinbo.jpg") no-repeat center center/cover;
+				}
+				55%{
+					background:url("Image/chinbo.jpg") no-repeat center center/cover;
+				}
+				
+				60%{
+					background:url("Image/skhikhbo.jpg") no-repeat center center/cover;
+				}
+				
+				85%{
+					background:url("Image/skhikhbo.jpg") no-repeat center center/cover;
+				}
+				90%{
+					background:url("Image/janbo.jpg") no-repeat center center/cover;
+				}
+				100%{
+					background:url("Image/janbo.jpg") no-repeat center center/cover;
+				}
+	}
+
+
+			#menu ul{list-style:none;padding:0px;margin:0px;}
+			#menu ul li{float:left;width:130px;height:35px;font-size:22px;color:#ffff66;border:1px solid yellow;
+				text-align:center;line-height:30px;background:#999999;}
+			#menu ul li a{text-decoration:none;color:#ffff66;}
+			#menu ul li:hover{background:#cccc00;color:#666666;}
+			
+			#menu ul ul{display:none;padding:0px;margin-top:5px;}
+			#menu ul li:hover>ul{display:block;}
+			
+			#form{float:right;margin-right:15px;margin-top:10px;}
+			
+			
+			#sidebar{width:250px;min-height:300px;background:#666666;margin-top:3px; border:1px solid #ffff66;float:left;}
+			#sidebar p{font-size:25px;text-align:center;color:#ffff66;}
+			#onesidebar{border:1px solid #ffff66;}
+			.photo{width:100px;height:70px;padding:10px;float:left;}
+			#onesidebar p{font-size:16px;color:#ffff66;text-align:left;padding:2px;}
+			#title{font-size:20px;color:white;padding-top:5px;}
+			.latest_articles{text-decoration:none;color:#ffff66;}
+			
+			
+			#container{min-height:600px;width:650px;background:#ffff66;margin-left:280px;margin-top:30px; }
+			.img_container{height:90px;width:150px;float:left;margin:10px;border:2px solid #666666;}
+			.one_container{border:2px solid #666666;}
+			.title{font-size:28px;padding-top:5px;}
+			.paragraph_container{margin:5px;font-size:18px;}
+			.read_button{margin-left:500px;margin-bottom:10px;font-size:18px;background:#666666;color:#ffff66;padding:3px;}
+			.read_button a{text-decoration:none;color:#ffff66;}
+			
+			.pagination{margin-left:400px;}
+			.pagination li{float:left;margin-right:25px;list-style:none;background:#ffff66;padding-left:10px;padding-right:10px;}
+			.pagination li:hover {background:black;}
+			.pagination li:hover a {color:white;}
+			
+			#social_logo ul{margin-left:350px; list-style:none;padding:10px;}
+			#social_logo ul li{float:left;}
+			#social_logo ul li p{color:#666666;font-size:25px;}
+			.logo{width:60px;height:50px;}
+			#footer_title{margin-left:200px; margin-top:60px;font-size:25px;color:#666666;}
+			#footer_body{margin-top:30px ; background:#ffff66; padding:10px;border:1px solid yellow;}

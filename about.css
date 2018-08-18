@@ -1,0 +1,21 @@
+#about_container_body{margin-top:40px;margin-left:10px;background:#666666;width:900px;height:1200px;min-height:350px;}
+#about_container{color:#ffff66;padding:50px;min-height:200px;}
+#about_container p{font-size:22px;text-align:justify;padding-top:20px;}
+.left_side{color:#ffff66;font-size:18px;}
+.input{margin:2px;padding:4px;}
+
+.post_img{width:350px;height:200px;float:left;padding:15px;}
+#post_title{font-size:23px;color:white;}
+.post_paragraph{font-size:18px;}
+
+#related_title{width:800px;height:50px;background:#999999;color:#ffff66;margin-left:50px;
+border:2px solid #ffff66;font-size:25px;text-align:center;line-height:40px;}
+.related{width:260px;height:100px;border:1px solid #ffff66; margin-left:50px;margin-top:30px;
+margin-bottom:10px;margin-right:5px;float:left;
+}
+
+.related_photo{width:150px;height:100px;float:left;margin-right:10px;}
+.related_post{color:#ffff66;font-size:18px;padding:10px;}
+.related_post a{text-decoration:none;color:#ffff66;}
+
+#footer_body{margin-top:60px;}
